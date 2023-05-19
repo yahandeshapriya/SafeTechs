@@ -1,7 +1,7 @@
 # SafeTechs
 ![GPR](https://github.com/yahandeshapriya/SafeTechs/assets/76465007/427eea81-7c88-44c8-a264-e8a6824a402d)
 
-(IoT-based accident detection & alerting system)
+SafeTechs (IoT-based accident detection & alerting system)
 
 South Asian countries like Sri Lanka, need to absorb digital technologies and are required to update the necessary manual business procedures in government or non-government sectors to an automated system for the purpose of boosting the required procedures. I hope the proposed system will encourage policymakers and other political leaders in Sri Lanka to utilize these types of automated systems. When going to talk about the proposed project blueprint, the purpose of creating this system is to develop the current manual rescue operating & road safety procedure in Sri Lanka into an automated system by utilizing IT and IoT technologies. "SafeTechs" is the business name of the proposed system. This platform will connect all the important rescue and other relevant parties into one digital platform to accomplish their tasks by utilizing this system. Furthermore, this proposed system will boost the current manual procedure, and it will save time in rescue operation missions plus this planned system will help to minimize the death & injury ratios to a certain level which are caused by vehicle accidents in Sri Lanka.
 
