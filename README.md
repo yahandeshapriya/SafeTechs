@@ -1,5 +1,6 @@
 # SafeTechs
-![GPR](https://github.com/yahandeshapriya/SafeTechs/assets/76465007/8c644157-5328-4d96-a571-ecf54ac0eab5)
+![GPR](https://github.com/yahandeshapriya/SafeTechs/assets/76465007/4c3aebb5-dffb-447d-bd15-8f3d16b724a4)
+
 
 
 SafeTechs (IoT-Based Accident Detection & Alerting System)
