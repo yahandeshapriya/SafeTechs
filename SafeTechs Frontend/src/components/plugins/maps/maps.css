@@ -1,0 +1,60 @@
+@import '../../../index.css';
+
+.ct-sidepannel {
+    width: 350px;
+    height: 82.5vh;
+    background-color: var(--primaryColor);
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    border-top-right-radius: 50px;
+    z-index: 100;
+}
+
+
+
+/* Side Pannel Related */
+
+.ct-sidepannel .pannel-header {
+    height:15vh;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+    
+}
+
+.pannel-header .pannel-icon {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 200px;
+}
+
+.ct-sidepannel .pannel-body {
+    height: 65vh;
+    width: 100%;
+} 
+
+.pannel-body .ext-container {
+    overflow-y: scroll;
+    height: 55vh;
+    width: 100%;
+}
+
+.ct-sidepannel .pannel-footer {
+    height: 5vh;
+    width: 100%;
+}
+
+.map-card {
+    background-color: rgb(255, 255, 29);
+    border-radius: 10px;
+    padding: 4px;
+    border: 2px solid black;
+}
+
