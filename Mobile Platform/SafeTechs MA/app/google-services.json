@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "524684560407",
+    "firebase_url": "https://accident-detect-57906-default-rtdb.firebaseio.com",
+    "project_id": "accident-detect-57906",
+    "storage_bucket": "accident-detect-57906.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524684560407:android:20a6a1e8f1e3f34fe03452",
+        "android_client_info": {
+          "package_name": "com.kavindaandroid.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524684560407-gftqp8d290oa6glig6hg57potbk42vjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVILoPuHrCanq1ws5zdeuJvjoHf16oKpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524684560407-gftqp8d290oa6glig6hg57potbk42vjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BottomFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Vehicle Status"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="80dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageVie1w"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/lpg" />
+
+                <TextView
+                    android:id="@+id/gas_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:text="Gas detected"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottie1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="20dp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_rawRes="@raw/wrning" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imagewgView"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/fire" />
+
+                <TextView
+                    android:id="@+id/fire_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:text="Gas detected"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottie2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="20dp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_rawRes="@raw/wrning" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageVhiew"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/alcohol" />
+
+                <TextView
+                    android:id="@+id/alcohol_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:text="Gas detected"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottie3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="20dp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_rawRes="@raw/wrning" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewq"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/locking" />
+
+                <TextView
+                    android:id="@+id/lock_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:text="Gas detected"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottie4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="20dp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_rawRes="@raw/unlockani" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
